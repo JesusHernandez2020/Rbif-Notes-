@@ -1,5 +1,7 @@
 #conditional statements
+
 ###pretty simple:
+
 if a test is true do something, else do something else;
 ***below is an example***
 ```python 
