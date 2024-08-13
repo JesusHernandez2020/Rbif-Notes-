@@ -11,9 +11,9 @@ Python’s for loop looks like this:
 
 ```python
 for <var> in <iterable>:
-    <statement(s)>```
-
-`<iterable>` is a collection of objects—for example, a `list` or `tuple.` The <statement(s)> in the loop body are denoted by indentation, as with all Python control structures, and are executed once for each item in <iterable>. The loop variable <var> takes on the value of the next element in <iterable> each time through the loop.
+    <statement(s)>
+```
+```<iterable>``` is a collection of objects—for example, a ```list```or ```tuple.``` The <statement(s)> in the loop body are denoted by indentation, as with all Python control structures, and are executed once for each item in <iterable>. The loop variable <var> takes on the value of the next element in <iterable> each time through the loop.
 
 Example: How to count the number of adenines in a specific DNA sequence
 ```python
