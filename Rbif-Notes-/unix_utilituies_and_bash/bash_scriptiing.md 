@@ -1,6 +1,6 @@
-bash scripting
+#bash scripting
 ***sintax***
-```bash 
+```python 
 
 echo "hello"
 
