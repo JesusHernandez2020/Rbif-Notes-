@@ -1,4 +1,4 @@
-#bash scripting
+# bash scripting
 
 ## How to run the script 
 
