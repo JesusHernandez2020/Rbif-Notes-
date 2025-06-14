@@ -1,4 +1,6 @@
-# bash scripting
+#bash scripting
+
+## How to run the script 
 
 --> the file type is .sh
 
@@ -6,5 +8,5 @@
 
 --> to run the script, run the cmd: `bash` script.sh or use `chmod +x my_script.sh` to make it an executable. now you can run it as ./script.sh
 
-# sintax
+## sintax
 
