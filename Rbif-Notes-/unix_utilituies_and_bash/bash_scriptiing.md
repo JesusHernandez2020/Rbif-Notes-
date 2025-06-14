@@ -1,4 +1,4 @@
-#bash scripting
+# bash scripting
 ***sintax***
 ```python 
 
