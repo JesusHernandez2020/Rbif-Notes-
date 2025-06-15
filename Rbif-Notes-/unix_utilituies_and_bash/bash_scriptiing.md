@@ -16,7 +16,7 @@
 
 output: hello world
 
---> ***variables***
+***variables***
 
 --> same as any as any other programming language( ex python )
 example 
@@ -26,6 +26,13 @@ name = john
 
 or 
 
-path =home/project ```
+path =home/project 
 
+``` 
 
+using the variables:
+
+```
+
+cd $path
+```
