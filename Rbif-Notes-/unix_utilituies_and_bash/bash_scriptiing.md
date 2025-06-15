@@ -10,7 +10,10 @@
 
 ## sintax
 
---> first important command, `echo': output a string to the terminal example:
-``` `echo` "hello word" ```
+--> first important command, `echo`: output a string to the terminal example:
+
+``` echo "hello word" ```
 
 output: hello world
+
+--> ***variables***
