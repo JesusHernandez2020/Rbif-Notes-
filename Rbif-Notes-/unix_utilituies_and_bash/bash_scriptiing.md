@@ -21,7 +21,8 @@ output: hello world
 --> same as any as any other programming language( ex python )
 example 
 
-```name = john 
+```
+name = john 
 
 or 
 
