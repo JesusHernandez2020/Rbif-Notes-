@@ -17,3 +17,14 @@
 output: hello world
 
 --> ***variables***
+
+--> same as any as any other programming language( ex python )
+example 
+
+```name = john 
+
+or 
+
+path =home/project ```
+
+
