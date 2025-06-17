@@ -34,8 +34,7 @@ using the variables:
 
 ```
 
-cd $path
+cd $path   #move to the directory specify. 
 ```
-you can also 
+## you also use inputs and storage them in a variables by using `read`
 
-testing 
