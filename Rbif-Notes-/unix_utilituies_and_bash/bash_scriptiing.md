@@ -36,5 +36,5 @@ using the variables:
 
 cd $path   #move to the directory specify. 
 ```
-## you also use inputs and storage them in a variables by using `read`
+you also use inputs and storage them in a variables by using `read`
 
