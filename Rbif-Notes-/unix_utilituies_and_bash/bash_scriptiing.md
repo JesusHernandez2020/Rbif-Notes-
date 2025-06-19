@@ -32,6 +32,17 @@ path =home/project
 
 using the variables:
 
+
+
+Definition: A variable is a container for storing data values. In bash, you can 
+create a variable by using the syntax: `variable_name=value`. No spaces should be 
+around the equal sign.
+
+Accessing Variables: To access or use the value stored in a variable,
+prefix its name with a dollar sign `$`. For example, if you define a variable 
+myVar=10, you can access its value by typing `echo $myVar`.
+
+
 ```
 
 cd $path   #move to the directory specify. 
