@@ -23,4 +23,39 @@ to print the current working directory.
 
 9. ```cat```: Concatenates and displays file contents.```cat file.txt``` displays the content of file.txt on to the terminal. ***you can use cat>>file to output data into a file**
 
-## i will add more to this notes.
+## notes from udemy course 
+
+
+`file globbing` is a powerful feature in the shell that uses wildcard characters
+to match groups of files. Here are the key concepts related to file globbing:
+
+    Wildcard Characters:
+        Asterisk *: This represents any number of characters. For example, using
+        ls *.txt will list all .txt files in the current directory.
+        Question Mark ?: This represents a single character. For example, 
+        ls file?.txt will look for files like file1.txt or fileA.txt, but not file12.txt.
+        Brackets []: You can specify a range of characters. For instance, 
+        ls file[a-i].txt will match filea.txt to filei.txt.
+
+    Exclusion:
+        You can also exclude certain patterns using !. For example,
+        ls file[!a].txt will match all files except those starting with 'a'.
+
+    Examples of Usage:
+        To see all files in a directory using wildcards, you might use a command 
+        like ls -l *, which will display all files.
+        If you want to copy all files from a directory into your current directory, 
+        you might use cp /path/to/documents/* .. Here, the asterisk grabs all files 
+        from the specified directory.
+
+    Practical Applications:
+        File globbing can be especially useful for performing bulk file operations, 
+        such as moving or renaming multiple files at once.
+
+Understanding and mastering file globbing will significantly enhance your efficiency
+in navigating and managing files in a shell environment. If you have any specific 
+scenarios or further questions, feel free to ask!
+Was this content relevant to you?
+
+
+
