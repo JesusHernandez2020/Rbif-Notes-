@@ -5,7 +5,22 @@ this command you can can use to change directory
 for example you in ```user/home```
 you can say ```cd user/home/desktop``` to switch desktop, you can also use ```cd -``` to go back to the previous directory 
 
-2. ```pwd```
+**interesting uses of `cp`
+
+The cp -R command is used to copy directories and their contents recursively 
+in a Unix-like operating system. Here’s a breakdown of how it works:
+
+Command Structure:
+The command consists of cp, which stands for copy, 
+followed by the -R (or --recursive) flag, the source directory, and the destination.
+The syntax is:
+
+```cp -R [source_directory] [destination_directory]```
+
+
+
+
+. ```pwd```
 to print the current working directory.
 ```C:\Users\Jesus\OneDrive\Desktop\Rbif-Notes-``` is th location of this file when i type ```pwd``` in the terminal 
 ***note: rembember the difference of relative vs absolute path***
