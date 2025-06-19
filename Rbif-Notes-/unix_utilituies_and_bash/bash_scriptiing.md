@@ -30,7 +30,7 @@ path =home/project
 
 ``` 
 
-using the variables:
+**using the variables:**
 
 
 
