@@ -101,36 +101,38 @@
     `tail -f` can display the content of the file as it is been updated by other 
     processes or program. 
 
-`find`  and `locate`: 
+14. `find`  and `locate`: 
 
-if you want to search for files in a directory hierarchy,
-the basic use: 
-you can use this command to search for a specific file by name in the current 
-directory.
-example:
-`find . -name "filename.txt"`
+  if you want to search for files in a directory hierarchy,
+  the basic use: 
+  you can use this command to search for a specific file by name in the current 
+  directory.
+  
+  example:
+  `find . -name "filename.txt"`
 
-the . means start looking in the current directory 
+  the . means start looking in the current directory 
 
-you can also use wildcards such as * here to search for all files that are txt for 
-example:
+  you can also use wildcards such as * here to search for all files that are txt for 
+  example:
 
-`find . -name "*.txt" ( **important this can be used to build a file organizer**)
+  `find . -name "*.txt"` ( **important this can be used to build a file organizer**)
 
-you can also search for empty files and can pipe this cmd to less 
-```find . -empty 
-
-find . -empty |less 
-
-
-```
-aside from find you can also use locate to search for files ( you do have to install first though)
-
-example 
-`locate filename `
-or pipe it to lesss
-`locate filename | less `
-
+  you can also search for empty files and can pipe this cmd to less 
+  ```
+  find . -empty 
+  
+  find . -empty |less 
+  
+  
+  ```
+  aside from find you can also use locate to search for files ( you do have to install first though)
+  
+  example 
+  `locate filename `
+  or pipe it to lesss
+  `locate filename | less `
+  
 
 
 
