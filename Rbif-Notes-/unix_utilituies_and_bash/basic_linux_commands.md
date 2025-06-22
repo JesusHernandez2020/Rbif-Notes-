@@ -76,8 +76,65 @@
     
     **example**
     ```mkdir -p parent_dir/child_dir/grandchild_dir```
+    
+9. `cat`: display content in a file
+  flags: `-n` displays the line number
+  **example** `cat -n file`
 
-  
+10. `more` Command:
+        The more command displays the content of a file one screen at a time. 
+        You can navigate through the file using the spacebar to move a page at a 
+        time or the Enter key to scroll line by line. To exit the more command, you simply press the `q` key.
+
+11. `less` Command:
+        The less command is similar to more but offers more flexibility. It allows 
+        for backward movement in the file and provides searching capabilities.
+        You can highlight occurrences of a specified word in the file, making it 
+        easier to navigate large files. Like more, you can exit the less command 
+        by pressing the `q` key. if you type `/`you can look for a pattern and 
+        highlighted
+
+12. `head`  display the first 10 lines of the file 
+
+13. `tail` display the last 10 lines of the file 
+
+    `tail -f` can display the content of the file as it is been updated by other 
+    processes or program. 
+
+`find`  and `locate`: 
+
+if you want to search for files in a directory hierarchy,
+the basic use: 
+you can use this command to search for a specific file by name in the current 
+directory.
+example:
+`find . -name "filename.txt"`
+
+the . means start looking in the current directory 
+
+you can also use wildcards such as * here to search for all files that are txt for 
+example:
+
+`find . -name "*.txt" ( **important this can be used to build a file organizer**)
+
+you can also search for empty files and can pipe this cmd to less 
+```find . -empty 
+
+find . -empty |less 
+
+
+```
+aside from find you can also use locate to search for files ( you do have to install first though)
+
+example 
+`locate filename `
+or pipe it to lesss
+`locate filename | less `
+
+
+
+
+
 
 ## notes from udemy course 
 
@@ -115,4 +172,4 @@ scenarios or further questions, feel free to ask!
 Was this content relevant to you?
 
 
-
+## important notes to input data to a file you can use echo `"hello">>file`and `cat "text">>file`
