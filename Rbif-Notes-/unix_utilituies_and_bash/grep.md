@@ -17,7 +17,7 @@ grep "pattern" filename
 
 6. ```grep -r "pattern" filename``` matches directories 
 7. ```grep -o "pattern" filename``` Use the -o option to show only the matching part of the lines: **can be pipe 
-to wc to find out the number of occurrences of pattern in a file(useful for motif finding in fasta files, example grep -o atg |wc)**
+to wc to find out the number of occurrences of pattern in a file regardless if it occurs multiple times in a line(useful for motif finding in fasta files, example grep -o atg |wc -l)**
 
 8. To show lines of context around the matches, use the -A, -B, or -C options:
 
